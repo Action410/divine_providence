@@ -21,8 +21,7 @@ const SeeNotice = () => {
     }, [
         dispatch,
         currentRole,
-        currentUser?._id,
-        currentUser?.school?._id
+        currentUser
     ]);
 
     if (error) {
